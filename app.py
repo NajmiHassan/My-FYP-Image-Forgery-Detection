@@ -80,11 +80,12 @@ def prepare_image(image_path):
     return image_array
 
 
+
 def predict_image(image_path):
     # Preprocess the image
     processed_image = prepare_image(image_path)
     # Make predictions using the loaded model
-    prediction = model.predict(np.expand_dims(processed_image, axis=0))
+    prediction = model.predict(processed_image)  # Removed the np.expand_dims here
     # Extract the predicted class
     predicted_class = np.argmax(prediction)
     return "Authentic" if predicted_class == 1 else "Tampered"
