@@ -1,7 +1,3 @@
-Here's an engaging and detailed `README.md` file for your project, **PixelProbe**:
-
----
-
 # PixelProbe: Image Forgery Detection System 🔍
 
 Welcome to **PixelProbe**! This project is designed to unveil the truth hidden in images by detecting whether an image is authentic or tampered. Using advanced machine learning techniques combined with Error Level Analysis (ELA), PixelProbe reveals alterations in images that might not be visible to the naked eye. Built on a deep learning model, the system is wrapped in a user-friendly interface powered by Streamlit, allowing users to easily upload images and get real-time predictions.
