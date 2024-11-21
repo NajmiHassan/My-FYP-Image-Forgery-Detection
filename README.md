@@ -76,12 +76,3 @@ Feel free to reach out if you have any questions or feedback about PixelProbe!
 
 - **Email**: najmi8815@gmail.com
 ---
-
-
---- 
-
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
