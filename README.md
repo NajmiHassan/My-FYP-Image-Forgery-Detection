@@ -2,6 +2,15 @@
 
 Welcome to **PixelProbe**! This project is designed to unveil the truth hidden in images by detecting whether an image is authentic or tampered. Using advanced machine learning techniques combined with Error Level Analysis (ELA), PixelProbe reveals alterations in images that might not be visible to the naked eye. Built on a deep learning model, the system is wrapped in a user-friendly interface powered by Streamlit, allowing users to easily upload images and get real-time predictions.
 
+## Table of Contents
+- [Features](#features)
+- [Demo](#demo)
+- [How It Works](#how-it-works)
+- [Model Architecture](#model-architecture)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+  
 ## Features 🌟
 - **Upload Image**: Users can upload any image (JPEG, PNG) and have it analyzed in real time.
 - **Image Forgery Detection**: The model will classify the uploaded image as either `Authentic` or `Tampered`.
@@ -12,14 +21,6 @@ Welcome to **PixelProbe**! This project is designed to unveil the truth hidden i
 ## Demo 💻
 You can try out PixelProbe by uploading any image, and within seconds, you’ll receive a detailed prediction on whether the image is `Authentic` or `Tampered`.
 
-## Table of Contents
-- [Features](#features)
-- [Demo](#demo)
-- [How It Works](#how-it-works)
-- [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contact](#contact)
 
 ## How It Works 🛠️
 PixelProbe uses **Error Level Analysis (ELA)** to highlight regions in an image that have undergone compression, which may indicate tampering. The steps are as follows:
